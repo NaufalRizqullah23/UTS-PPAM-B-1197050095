@@ -29,7 +29,7 @@ public class Detail extends AppCompatActivity {
             judulPan.setText(food.title);
             hargaPan.setText(String.valueOf(food.price));
             descPan.setText(food.descript);
-            image.setImageDrawable(food.gambar);
+            image.setBackground(food.gambar);
 
         }
     }
