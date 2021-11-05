@@ -26,7 +26,6 @@ public class Detail extends AppCompatActivity {
             TextView descPan = findViewById(R.id.detail_desc);
             ImageView image = findViewById(R.id.detail_image);
 
-            image.setImageDrawable(food.gambar);
             judulPan.setText(food.title);
             hargaPan.setText(String.valueOf(food.price));
             descPan.setText(food.descript);

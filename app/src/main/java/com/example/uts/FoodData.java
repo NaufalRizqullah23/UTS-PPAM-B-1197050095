@@ -14,6 +14,7 @@ public class FoodData{
         list.add(new Food("Donut","Who doesn't love donuts?",5000,context.getDrawable(R.drawable.donut)));
         list.add(new Food("Mie Goreng","Indomie Seleraku!",8000,context.getDrawable(R.drawable.mie_goreng)));
         list.add(new Food("Kopi Hitam","Kopi Hitam Asli Indonesia",7500,context.getDrawable(R.drawable.kopi_hitam)));
+        list.add(new Food("Batagor","Dibuat dari tahu yang dilebutkan dan diisi dengan adonan berbahan ikan tenggiri dan tepung tapioka lalu dibentuk menyerupai bola yang digoreng dalam minyak panas selama beberapa menit hingga matang",10000,context.getDrawable(R.drawable.batagor)));
         return list;
     }
 }
